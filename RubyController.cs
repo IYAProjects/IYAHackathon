@@ -13,6 +13,8 @@ public class RubyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float horizontal = Input.GetAxis("Horizontal");    // 
+        Debug.Log(horizontal);                             // 
         Vector2 position = transform.position;   // Position이라는 변수 선언, 루비의 현재 위치 저장
         position.x = position.x + 0.1f;          // x 좌표는 오른쪽으로 0.1 유닛 이동한 값
         transform.position = position;

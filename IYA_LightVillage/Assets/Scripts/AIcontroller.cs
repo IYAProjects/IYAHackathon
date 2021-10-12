@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class AIcontroller : MonoBehaviour
 {
+    public int maxHealth = 5 ;
+    public int currentHealth;
+
     public float maxSpeed;
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
     Animator anim;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+
+        currentHealth = maxHealth;
+        currentHealth = 1;
     }
 
     void Update()
@@ -51,5 +57,11 @@ public class AIcontroller : MonoBehaviour
             rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
         else if(rigid.velocity.x < maxSpeed*(-1)) // Left
             rigid.velocity = new Vector2(maxSpeed*(-1), rigid.velocity.y);
+    }
+
+    public void ChangeHealth(int amount)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        Debug.Log(currentHealth + '/' + maxHealth);
     }
 }

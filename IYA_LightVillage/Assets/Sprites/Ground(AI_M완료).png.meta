@@ -106,90 +106,19 @@ TextureImporter:
       name: "Ground(AI_M\uC644\uB8CC)_0"
       rect:
         serializedVersion: 2
-        x: 39
-        y: 488
-        width: 468
-        height: 487
+        x: 35
+        y: 29
+        width: 951
+        height: 918
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -234, y: -243.5}
-        - {x: 234, y: -243.5}
-        - {x: 234, y: 214.5}
-        - {x: -234, y: 214.5}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: be9972258266cbfc0800000000000000
       internalID: -3477792488873813525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Ground(AI_M\uC644\uB8CC)_1"
-      rect:
-        serializedVersion: 2
-        x: 519
-        y: 487
-        width: 465
-        height: 488
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -232.5, y: -244}
-        - {x: 232.5, y: -244}
-        - {x: 232.5, y: 215}
-        - {x: -232.5, y: 215}
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0e75b14b3eb6c040800000000000000
-      internalID: 4667627225530859019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Ground(AI_M\uC644\uB8CC)_2"
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 31
-        width: 468
-        height: 457
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9edb03b14e9fdd470800000000000000
-      internalID: 8421161636356734441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Ground(AI_M\uC644\uB8CC)_3"
-      rect:
-        serializedVersion: 2
-        x: 519
-        y: 32
-        width: 465
-        height: 456
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1613785af5a01ae0800000000000000
-      internalID: -1580580974562699748
       vertices: []
       indices: 
       edges: []

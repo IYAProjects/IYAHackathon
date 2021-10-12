@@ -5,11 +5,10 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public TalkManager talkManager;
-    publid QuestManager questManager;
-    public GameObjects talkPanel;
+    //public TalkManager talkManager;
+    public GameObject talkPanel;
     public Text talkText;
-    public GameObjects scanObject;
+    public GameObject scanObject;
     public bool isAction;
     public int talkIndex;
     
@@ -22,12 +21,11 @@ public class GameManager : MonoBehaviour
         talkPanel.SetActive(isAction);
     }
 
-    void Talk()
+    void Talk(int id, bool isNpc)
     {   
-        int GetQuestTalkIndex = QuestManager.GetQuestTalkIndex(id);
-        string talkData = talkManager.GetTalk(id+ questTalkIndex, talkIndex);
+        //string talkData = talkManager.GetTalk(id, talkIndex);
 
-        if(talkData == null) {
+        /*if(talkData == null) {
             isAction = false;
             talkIndex = 0;
             return;
@@ -41,6 +39,6 @@ public class GameManager : MonoBehaviour
         }
 
         isAction = true;
-        talkIndex++;
+        talkIndex++; */
     }
 }
